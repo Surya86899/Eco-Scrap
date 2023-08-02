@@ -2,13 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
-    color: #00FF00;
+    background-color: #B6EF95;
+    color: black;
     /* font-family: ; */
 }
 
+body{
+    max-width: 100vw;
+    height:100vh;
+    background-image:url(/Img/Untitled\ design.jpg);
+    background-size: cover;
+}
+.SignUp{
+font-size: 25px;
+font-weight: bold;
+
+}
+
+.login{
+    font-size: 25px;
+    font-weight: bold;
+
+    }
+
 ::placeholder {
-    color: #00FF00;
+    color: black;
 }
 
 .container {
@@ -21,6 +39,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 5px;
+
 }
 
 .ls {
@@ -133,6 +152,8 @@ input:not(:checked)+.slider::before {
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
     z-index: 2;
     margin-top: 25px;
+    box-shadow: 2px 0 15px #2c6b34;
+    border-radius: 17%;
 }
 
 .SignupForm form{
